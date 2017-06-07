@@ -1,4 +1,4 @@
-FROM node:7.8
+FROM node:8
 MAINTAINER Christian Budde Christensen <budde377@gmail.com>
 RUN adduser --disabled-password --gecos "" laundree && \
     mkdir /opt/laundree && \
